@@ -10,5 +10,5 @@ const estado_casado = false
 //'tu nombre es ' + nombre + ' tu edad es ' + edad
 
 
-//literal string
+//literar string
 document.write(`tu nombre es ${nombre} y tu edad es ${edad} años y mas`)
