@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>variables</title>
-    <script src="js/variables.js"></script>
+    <!--<script src="js/variables.js"></script>-->
+    <script src="js/operArit.js"></script>
 </head>
 <body>
-    
+    <h1>Formulario Operaciones Aritmeticas</h1>
+    <form">
+        <label for="nUno">Numero Uno</label>
+        <input type="text" name="nUno" id="nUno">
+        <br><br>
+        <label for="nDos">Numero Dos</label>
+        <input type="text" name="nDos" id="nDos">
+        <br><br>
+        <label for="base">Base del triangulo</label>
+        <input type="text" name="base" id="base">
+        <br><br>
+        <label for="base">Altura del triangulo</label>
+        <input type="text" name="altura" id="altura">
+        <br><br>
+        <button type="button" onclick="sumar()">sumar</button>
+        <br><br>
+        <button type="button" onclick="multi()">multiplicar</button>
+        <br><br>
+        <button type="button" onclick="areat()">Area Triangulo</button>
+        <p>Resultado:
+            <textarea id="resulOperacion" cols="5" rows="1"></textarea>
+        </p>
+
+    </form>
 </body>
 </html>
