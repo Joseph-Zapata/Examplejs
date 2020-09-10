@@ -8,7 +8,7 @@ function mostrarMensaje(){
     }
 
    //if con operador terniario
-   
+
    //let mensaje = (edad >= 18) ? "sos mayor de eadad" : "sos menor de eadad";
 
     alert(mensaje);
@@ -18,7 +18,7 @@ function mostrarMensaje(){
 function mostrarMensajeDos() {
    
     let edadp = parseInt(document.getElementById('edadp').value);
-    let estaturap = parseploat(document.getElementById('estaturap').value);
+    let estaturap = parseFloat(document.getElementById('estaturap').value);
     let pesop = parseInt(document.getElementById('pesop').value);
 
     const parametroEdad = 80
